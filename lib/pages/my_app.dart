@@ -5,12 +5,6 @@ import 'home_page.dart';
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Test Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'Home Page'),
-    );
+    return HomePage(title: 'Home Page');
   }
 }
