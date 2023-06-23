@@ -3,7 +3,7 @@ import 'package:test_calculation/pages/calculation.dart';
 
 void main() {
   group('Calculation', () {
-    test('value should start at 1', () {
+    test('value should start at 0', () {
       expect(Calculation().interest, 0);
     });
 
